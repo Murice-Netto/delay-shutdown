@@ -52,7 +52,7 @@ Se quiser um executável, basta clonar o repositório com o comando…
 git clone https://github.com/Murice-Netto/delay-shutdown.git
 ```
 
-> **🪜 Depois, tenha o pyinstaller instalado na sua máquina. Caso não tenha, instale com o seguinte comando:**
+> **🪜 Depois, tenha o <a src="https://pypi.org/project/pyinstaller/">pyinstaller</a> instalado na sua máquina. Caso não tenha, instale com o seguinte comando:**
 
 ```
 pip install pyinstaller
