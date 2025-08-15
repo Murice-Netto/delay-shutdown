@@ -76,19 +76,6 @@ def display_timer(time_seconds: int, abort_signal: bool) -> None:
     shutdown()
 
 
-def shutdown() -> None:
-    match USER_OS:
-        case "windows":
-            _ = os.system("shutdown /s /t 0")
-        case "darwin":
-            _ = os.system("sudo shutdown now")
-        case "linux":
-            _ = os.system("sudo shutdown now")
-        case _:
-            # Mudar isso aqui
-            ...
-
-
 def main():
     base_dir: str = get_user_home_folder()
 
