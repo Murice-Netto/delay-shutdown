@@ -8,7 +8,7 @@
 <div align="center">
   <br>
   <h1>⌛ Delayed Shutdown ⌛</h1>
-  <strong>For Learning Purpose</strong>
+  <strong>Aprendizado</strong>
 </div>
 <br>
 <p align="center">
