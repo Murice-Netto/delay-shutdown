@@ -25,3 +25,7 @@ def find_app_file(
     raise FileNotFoundError(
         f"File with prefix '{file_prefix}' was not found in {folders}"
     )
+
+
+def extract_time_from_file_path(file_path: Path, file_prefix: str) -> str:
+    return file_path.name.split(file_prefix)[1].split(".")[0]
