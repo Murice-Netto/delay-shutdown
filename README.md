@@ -1,8 +1,23 @@
-# ⏱️ Delayed Shutdown
+[![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)
+[![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/license-mit.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/powered-by-coffee.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/check-it-out.svg)](https://forthebadge.com)
 
-Um pequeno projeto em Python que lê um arquivo com um tempo definido, exibe um timer regressivo no terminal e desliga o computador automaticamente.  
-Funciona em **Windows, Linux e macOS**.  
+<div align="center">
+  <br>
+  <h1>⌛ Delayed Shutdown ⌛</h1>
+  <strong>For Learning Purpose</strong>
+</div>
+<br>
+<p align="center">
+   <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" alt="Build Status">
+   <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Build Status">
+   <img src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white" alt="Build Status">
+   <img src="https://img.shields.io/badge/mac%20os-000000?style=for-the-badge&logo=macos&logoColor=F0F0F0" alt="Build Status">
+</p>
 
+Um pequeno projeto em Python que lê um arquivo com um tempo definido, exibe um timer regressivo no terminal e desliga o computador automaticamente. Funciona em **Windows, Linux e macOS**.  
 
 
 ## 📝 Funcionalidades
