@@ -35,3 +35,10 @@ def extract_time_from_file_path(file_path: Path, file_prefix: str) -> str:
 def match_regex(text: str, reges: str) -> int:
     match = re.search(reges, text)
     return int(match.group(1) if match else 0)
+
+
+def convert_string_time_to_seconds(text_time: str) -> int:
+    hours: int = match_regex(text_time, r"(\d+)h")
+    minutes: int = match_regex(text_time, r"(\d+)m")
+    seconds: int = match_regex(text_time, r"(\d+)s")
+    return hours * 3600 + minutes * 60 + seconds
