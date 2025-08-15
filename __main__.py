@@ -57,25 +57,6 @@ def match_regex(text: str, regex: str) -> str:
         return "0"
 
 
-def display_timer(time_seconds: int, abort_signal: bool) -> None:
-    print("Press CTRL+C to abort shutdown")
-    for remaninig in range(time_seconds, -1, -1):
-        try:
-            if abort_signal:
-                return
-            seconds: int = remaninig % 60
-            total_minutes: int = remaninig // 60
-            minutes: int = total_minutes % 60
-            hours: int = total_minutes // 60
-            timer_strucutre: str = f"\rShuting down in: {add_zero_start(hours)}:{add_zero_start(minutes)}:{add_zero_start(seconds)}"
-            print(timer_strucutre, end="", flush=True)
-            time.sleep(1)
-        except KeyboardInterrupt:
-            print("\nShutdown Aborted.")
-            abort_signal = True
-    shutdown()
-
-
 def main():
     base_dir: str = get_user_home_folder()
 
