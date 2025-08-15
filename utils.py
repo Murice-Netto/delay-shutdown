@@ -1,5 +1,6 @@
 from pathlib import Path
 import platform
+import re
 
 
 DEFAULT_FOLDERS: list[str] = ["Documents", "Downloads", "Music", "Pictures", "Videos"]
@@ -29,3 +30,8 @@ def find_app_file(
 
 def extract_time_from_file_path(file_path: Path, file_prefix: str) -> str:
     return file_path.name.split(file_prefix)[1].split(".")[0]
+
+
+def match_regex(text: str, reges: str) -> int:
+    match = re.search(reges, text)
+    return int(match.group(1) if match else 0)
