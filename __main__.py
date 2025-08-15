@@ -89,10 +89,6 @@ def shutdown() -> None:
             ...
 
 
-def add_zero_start(value: int) -> str:
-    return value.__str__().rjust(2, "0")
-
-
 def main():
     base_dir: str = get_user_home_folder()
 
