@@ -20,9 +20,9 @@ Funciona em **Windows, Linux e macOS**.
 1. Coloque um arquivo com prefixo `DTF-` nas pastas padrão (`Documents`, `Downloads`, `Music`, etc.)  
    - Exemplo de nome: `DTF-1h2m5s.txt`  
 2. Execute o projeto:  
-"""
+```
 python main.py
-"""  
+```  
 3. O timer vai começar a contagem regressiva ⏱️  
 4. Para cancelar, pressione **CTRL+C** ✋  
 
@@ -30,14 +30,14 @@ python main.py
 
 ## 🛠️ Estrutura do projeto
 
-"""
+```
 project/
 │
 ├─ main.py        # Fluxo principal do programa
 ├─ timer.py       # Timer e desligamento
 ├─ utils.py       # Funções auxiliares
 └─ README.md      # Este arquivo
-"""
+```
 
 ---
 
